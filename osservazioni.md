@@ -1,29 +1,30 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: C5
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (nome, cognome e username GitHub di entrambi):Gianluca Donatelli (username: Gianluca-Donatelli); Beatrice Fuselli (username: Beatrice Fuselli)
 
-URL del repository condiviso:
+URL del repository condiviso:https://github.com/Gianluca-Donatelli/esercitazione-0-template
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: Entrambi a turno 
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: come comando di compilazione abbiamo utilizzato make (hello) che funge da scorciatoia per "gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello" e compila solo se "hello.c" è stato aggiornato
 
-Comando di esecuzione e risultato osservato:
 
-Che cosa ho capito su sorgente ed eseguibile:
+Comando di esecuzione e risultato osservato:Per eseguire abbiamo utilizzato "./hello". Come  risultato è comparsa sul terminale la scritta "Hello, computational physics!"
 
-Output richiesto e comportamento del programma prima della modifica:
+Che cosa ho capito su sorgente ed eseguibile: Il file sorgente è il .c su cui viene scritto e modificato il codice, mentre l'eseguibile è il file generato dal compilatore
 
-Esito dopo la modifica e spiegazione della correzione:
+Output richiesto e comportamento del programma prima della modifica: Prima della modifica il programma non presentava nessun output
 
-## Step 1 — Git
+Esito dopo la modifica e spiegazione della correzione: Una volta aggiunto il printf() e aver ricompilato l'output dell'eseguibile è stata  la scritta "Hello, computational physics!" 
+
+## Step 1 — Git 
 
 Quali file ho incluso nel commit e perché:
 
