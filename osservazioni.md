@@ -20,7 +20,7 @@ Comando di esecuzione e risultato osservato:Per eseguire abbiamo utilizzato "./h
 
 Che cosa ho capito su sorgente ed eseguibile: Il file sorgente è il .c su cui viene scritto e modificato il codice, mentre l'eseguibile è il file generato dal compilatore
 
-Output richiesto e comportamento del programma prima della modifica: Prima della modifica il programma non presentava nessun output
+Output richiesto e comportamento del programma prima della modifica: Prima della modifica il programma non restituiva nessun output
 
 Esito dopo la modifica e spiegazione della correzione: Una volta aggiunto il printf() e aver ricompilato l'output dell'eseguibile è stata  la scritta "Hello, computational physics!" 
 
