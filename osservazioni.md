@@ -26,11 +26,11 @@ Esito dopo la modifica e spiegazione della correzione: Una volta aggiunto il pri
 
 ## Step 1 — Git 
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: Nel commit ho incluso tutti i file modificati in locale, esclusi gli eseguibili in binario poichè possono essere generati in qualsiasi momento dai file .c con un compilatore o con il "make" fornito
 
-Come ho verificato che la versione provata sia presente su GitHub:
+Come ho verificato che la versione provata sia presente su GitHub: ho controllato su GitHub che tra i commit ci fosse l'ultimo inviato tramite "git push" insieme al relativo messaggio
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: Tramite il "git pull" noi prendiamo le modifiche apportate in locale e le trasferiamo sul server di Github in modo che siano visibili dai nostri collaboratori, aggiornando in questo modo le repository coinvolte. Non serve clonare di nuovo poichè il primo clone configura definitivamente la repository da github al computer locale
 
 ## Step 2 — Eco: prima prova
 
