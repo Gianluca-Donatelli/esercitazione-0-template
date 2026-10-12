@@ -58,19 +58,22 @@ double leggi_reale(char *testo)
 int main(int argc, char *argv[])
 {
     if (argc != 4) {
+        // se ha meno di 4 argomenti significa che non sono stati inseriti i 3 argomenti richiesti
         fprintf(stderr, "Uso: %s TESTO INTERO REALE\n", argv[0]);
         return 2;
     }
 
+/* TODO: converti gli argomenti in tipi appropriati. */
     char *testo = argv[1];
-
-    /* TODO: converti gli argomenti in tipi appropriati. */
-
+    int intero=leggi_intero(argv[2]);
+    float decimale=leggi_reale(argv[3]);
+    
     /* Evita una segnalazione finche' testo non viene usato nella stampa. */
     (void)testo;
 
     /* TODO: scrivi una sola chiamata a printf che stampi testo, intero e reale,
      * separati da uno spazio e seguiti da un carattere di nuova riga. */
+    printf("%s %i %d", *testo, intero, decimale);
 
     return 0;
 }
