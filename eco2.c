@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
 
     /* TODO: scrivi una sola chiamata a printf che stampi testo, intero e reale,
      * separati da uno spazio e seguiti da un carattere di nuova riga. */
-    printf("%s %i %f\n", *testo, intero, decimale);
+    printf("%s %i %f\n", testo, intero, decimale);
 
     return 0;
 }
