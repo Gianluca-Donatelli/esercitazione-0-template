@@ -34,9 +34,9 @@ Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clon
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: Abbiamo passato alla funzione main "int argc, char *argv[]". Dal termnale abbiamo poi inserito tre imput: una stringa, un intero e un decimale. Dopo aver convertito i caratteri dei numero interi e decimali attraverso atoi e atof abbiamo stampao gli umput tramite printf.
 
-Che cosa posso concludere:
+Che cosa posso concludere: E' possibile immetere imput da terminale tramite l'array argv, e attraverso le funzioni atoi e atof posso convertire i caratteri dei numeri in variabili numeriche utiizzabili all'interno del programma
 
 ## Step 2 — Eco: seconda prova
 
