@@ -40,9 +40,9 @@ Che cosa posso concludere: E' possibile immetere imput da terminale tramite l'ar
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: Abbiamo passato da terminale una stinga di testo, un intero e un decimale. 
 
-Che cosa ho capito su testo, conversioni e stampa:
+Che cosa ho capito su testo, conversioni e stampa: La differenza rispetto a eco.c è che in eco2.c ci sono delle funzione dichiarate all'interno del progrmama che oltre a convertire i caratteri in interi/decimali controllano anche che l'imput sia quallo richiesto
 
 ## Step 2 — Risultato ed errori
 
